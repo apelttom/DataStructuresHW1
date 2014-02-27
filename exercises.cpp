@@ -6,7 +6,7 @@ double const PI = 3.14159;
 
 void exercise1 (){
     int x = 0, y = 0;
-    cout << "Arithmetic operations. Please enter numbers and hit enter:" << endl;
+    cout << "Arithmetic operations. Please enter 2 numbers:" << endl;
     cout << "x = "; cin >> x;
     cout << "y = "; cin >> y;
     cout << "Results:" << endl;
