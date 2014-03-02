@@ -1,8 +1,9 @@
 #include <iostream>
+#include "exercises.h"
 
 using namespace std;
 
-int main(){
+void matrixMultpct(){
     int rowA = 0,colA = 0,rowB = 0,colB = 0;
     int **matrixA;
     int **matrixB;
@@ -16,7 +17,7 @@ int main(){
     cout << "columns = "; cin >> colB;
     if(colA != rowB){
         cout << "Matrix A has to have the same number of columns as matrix B!"<< endl <<"Ending the program..." << endl;
-        return 0;
+        return;
     }
 
 //    inicialization
@@ -69,4 +70,13 @@ int main(){
     delete matrixA;
     delete matrixB;
     delete matrixC;
+}
+
+int main(){
+//    matrixMultpct();
+    Exercises *eTmp = new Exercises;
+//    exercise1();
+//    exercise2();
+    eTmp->exercise3();
+    delete eTmp;
 }
