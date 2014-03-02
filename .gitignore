@@ -223,8 +223,9 @@ pip-log.txt
 *.depend
 *.layout
 
+
 #################
 ## GCC compiler
 #################
 
-*.ghc
+*.h.gch
