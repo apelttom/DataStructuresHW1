@@ -67,9 +67,9 @@ void matrixMultpct(){
         }
         cout << endl;
     }
-    delete matrixA;
-    delete matrixB;
-    delete matrixC;
+    delete[] matrixA;
+    delete[] matrixB;
+    delete[] matrixC;
 }
 
 int main(){
@@ -77,6 +77,6 @@ int main(){
     Exercises *eTmp = new Exercises;
 //    exercise1();
 //    exercise2();
-    eTmp->exercise3();
+    eTmp->exercise5();
     delete eTmp;
 }
